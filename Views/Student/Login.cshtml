@@ -1,0 +1,28 @@
+@model Projet1.Models.Student
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h1>Login</h1>
+
+@if(!ViewData.ModelState.IsValid)
+{
+    <div class = "alert alert-danger alert-dismissible fade show" role = "alert">
+        @Html.ValidationSummary(false)
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+<form action = "Login" method = "post">
+    <div class = "form-group"> 
+        <label for="Mail">Mail :</label>
+        <input type="text" asp-for="Mail" for="Mail" />
+    </div>
+    <div class = "form-group"> 
+        <label for="Password">Password : </label>
+        <input type="text" asp-for="Password" id="Password">
+    </div>
+    <input type="submit" value="Sign in" />
+
+</form>

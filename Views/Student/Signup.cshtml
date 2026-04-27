@@ -1,0 +1,34 @@
+@model Projet1.Models.Student;
+
+@{
+    ViewData["Title"] = "Signup";
+}
+
+<form action="Signup" method="post">
+    <div class="form-group">
+        <label for="Mail">Mail : </label>
+        <input type="text" asp-for="Mail"/>
+    </div>
+
+    <div class="form-group">
+        <label for="Name">Name : </label>
+        <input type="text" asp-for="Name"/>
+    </div>
+    
+    <div class="form-group">
+        <label for="NoInscription">NoInscription : </label>
+        <input type="text" asp-for="NoInscription"/>
+    </div>
+
+    <div class="form-group">
+        <label for="Phone">Mail : </label>
+        <input type="number" asp-for="Phone"/>
+    </div>
+
+    <div class="form-group">
+        <label for="Password">Password : </label>
+        <input type="password" asp-for="Password"/>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
