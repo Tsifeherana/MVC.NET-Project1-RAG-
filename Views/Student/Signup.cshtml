@@ -1,34 +1,55 @@
-@model Projet1.Models.Student;
+@model Projet1.Models.Student
 
 @{
     ViewData["Title"] = "Signup";
 }
 
-<form action="Signup" method="post">
-    <div class="form-group">
-        <label for="Mail">Mail : </label>
-        <input type="text" asp-for="Mail"/>
-    </div>
+<section class="auth-page">
+    <div class="auth-card auth-card--wide">
+        <div class="auth-card__header">
+            <span class="auth-badge auth-badge--accent">Inscription</span>
+            <h1>Créer un compte étudiant</h1>
+            <p>Renseigne tes informations pour ouvrir ton espace personnel.</p>
+        </div>
 
-    <div class="form-group">
-        <label for="Name">Name : </label>
-        <input type="text" asp-for="Name"/>
-    </div>
-    
-    <div class="form-group">
-        <label for="NoInscription">NoInscription : </label>
-        <input type="text" asp-for="NoInscription"/>
-    </div>
+        <form asp-action="Signup" asp-controller="Student" method="post" class="auth-form">
+            <div class="row g-3">
+                <div class="col-12">
+                    <label asp-for="Mail" class="form-label">Adresse e-mail</label>
+                    <input asp-for="Mail" class="form-control form-control-lg auth-input" placeholder="exemple@mail.com" />
+                    <span asp-validation-for="Mail" class="text-danger small"></span>
+                </div>
 
-    <div class="form-group">
-        <label for="Phone">Mail : </label>
-        <input type="number" asp-for="Phone"/>
-    </div>
+                <div class="col-12 col-md-6">
+                    <label asp-for="Name" class="form-label">Nom</label>
+                    <input asp-for="Name" class="form-control form-control-lg auth-input" placeholder="Ton nom" />
+                    <span asp-validation-for="Name" class="text-danger small"></span>
+                </div>
 
-    <div class="form-group">
-        <label for="Password">Password : </label>
-        <input type="password" asp-for="Password"/>
-    </div>
+                <div class="col-12 col-md-6">
+                    <label asp-for="NoInscription" class="form-label">Numéro d'inscription</label>
+                    <input asp-for="NoInscription" class="form-control form-control-lg auth-input" placeholder="000000" />
+                    <span asp-validation-for="NoInscription" class="text-danger small"></span>
+                </div>
 
-    <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+                <div class="col-12 col-md-6">
+                    <label asp-for="Phone" class="form-label">Téléphone</label>
+                    <input asp-for="Phone" type="tel" class="form-control form-control-lg auth-input" placeholder="+216 ..." />
+                    <span asp-validation-for="Phone" class="text-danger small"></span>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <label asp-for="Password" class="form-label">Mot de passe</label>
+                    <input asp-for="Password" type="password" class="form-control form-control-lg auth-input" placeholder="••••••••" />
+                    <span asp-validation-for="Password" class="text-danger small"></span>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg w-100 auth-btn mt-4">Créer mon compte</button>
+        </form>
+    </div>
+</section>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

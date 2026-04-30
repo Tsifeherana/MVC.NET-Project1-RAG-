@@ -21,7 +21,6 @@
 /home/tsifeherana/Documents/THE_END_OF_AN_ERA/C#/Projet1/obj/Debug/net10.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
 /home/tsifeherana/Documents/THE_END_OF_AN_ERA/C#/Projet1/obj/Debug/net10.0/scopedcss/bundle/Projet1.styles.css
 /home/tsifeherana/Documents/THE_END_OF_AN_ERA/C#/Projet1/obj/Debug/net10.0/scopedcss/projectbundle/Projet1.bundle.scp.css
-/home/tsifeherana/Documents/THE_END_OF_AN_ERA/C#/Projet1/obj/Debug/net10.0/compressed/hjsz7q2pte-{0}-b9sayid5wm-b9sayid5wm.gz
 /home/tsifeherana/Documents/THE_END_OF_AN_ERA/C#/Projet1/obj/Debug/net10.0/compressed/xi4mxm3in7-{0}-61n19gt1b8-61n19gt1b8.gz
 /home/tsifeherana/Documents/THE_END_OF_AN_ERA/C#/Projet1/obj/Debug/net10.0/compressed/z93xo020g5-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 /home/tsifeherana/Documents/THE_END_OF_AN_ERA/C#/Projet1/obj/Debug/net10.0/compressed/q7l4yohqvg-{0}-bqjiyaj88i-bqjiyaj88i.gz
@@ -95,3 +94,12 @@
 /home/tsifeherana/Documents/THE_END_OF_AN_ERA/C#/Projet1/obj/Debug/net10.0/Projet1.pdb
 /home/tsifeherana/Documents/THE_END_OF_AN_ERA/C#/Projet1/obj/Debug/net10.0/Projet1.genruntimeconfig.cache
 /home/tsifeherana/Documents/THE_END_OF_AN_ERA/C#/Projet1/obj/Debug/net10.0/ref/Projet1.dll
+/home/tsifeherana/Documents/THE_END_OF_AN_ERA/C#/Projet1/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.dll
+/home/tsifeherana/Documents/THE_END_OF_AN_ERA/C#/Projet1/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/tsifeherana/Documents/THE_END_OF_AN_ERA/C#/Projet1/obj/Debug/net10.0/Projet1.csproj.AssemblyReference.cache
+/home/tsifeherana/Documents/THE_END_OF_AN_ERA/C#/Projet1/obj/Debug/net10.0/Projet1.sourcelink.json
+/home/tsifeherana/Documents/THE_END_OF_AN_ERA/C#/Projet1/obj/Debug/net10.0/Projet1.csproj.Up2Date
+/home/tsifeherana/Documents/THE_END_OF_AN_ERA/C#/Projet1/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/tsifeherana/Documents/THE_END_OF_AN_ERA/C#/Projet1/bin/Debug/net10.0/Npgsql.dll
+/home/tsifeherana/Documents/THE_END_OF_AN_ERA/C#/Projet1/bin/Debug/net10.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/home/tsifeherana/Documents/THE_END_OF_AN_ERA/C#/Projet1/obj/Debug/net10.0/compressed/hjsz7q2pte-{0}-ngkkqrge3x-ngkkqrge3x.gz
