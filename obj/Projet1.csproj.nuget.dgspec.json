@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/tsifeherana/Documents/THE_END_OF_AN_ERA/C#/Projet1/Projet1.csproj": {}
+    "/workspaces/MVC.NET-Project1-RAG-/Projet1.csproj": {}
   },
   "projects": {
-    "/home/tsifeherana/Documents/THE_END_OF_AN_ERA/C#/Projet1/Projet1.csproj": {
+    "/workspaces/MVC.NET-Project1-RAG-/Projet1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/tsifeherana/Documents/THE_END_OF_AN_ERA/C#/Projet1/Projet1.csproj",
+        "projectUniqueName": "/workspaces/MVC.NET-Project1-RAG-/Projet1.csproj",
         "projectName": "Projet1",
-        "projectPath": "/home/tsifeherana/Documents/THE_END_OF_AN_ERA/C#/Projet1/Projet1.csproj",
-        "packagesPath": "/home/tsifeherana/.nuget/packages/",
-        "outputPath": "/home/tsifeherana/Documents/THE_END_OF_AN_ERA/C#/Projet1/obj/",
+        "projectPath": "/workspaces/MVC.NET-Project1-RAG-/Projet1.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/MVC.NET-Project1-RAG-/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/tsifeherana/.nuget/NuGet/NuGet.Config"
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -72,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.200/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

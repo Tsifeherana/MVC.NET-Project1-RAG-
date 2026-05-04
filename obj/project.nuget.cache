@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "dsaoJ85gf0w=",
+  "dgSpecHash": "wLopiCBoCDo=",
   "success": true,
-  "projectFilePath": "/home/tsifeherana/Documents/THE_END_OF_AN_ERA/C#/Projet1/Projet1.csproj",
+  "projectFilePath": "/workspaces/MVC.NET-Project1-RAG-/Projet1.csproj",
   "expectedPackageFiles": [
-    "/home/tsifeherana/.nuget/packages/microsoft.entityframeworkcore/10.0.7/microsoft.entityframeworkcore.10.0.7.nupkg.sha512",
-    "/home/tsifeherana/.nuget/packages/microsoft.entityframeworkcore.abstractions/10.0.7/microsoft.entityframeworkcore.abstractions.10.0.7.nupkg.sha512",
-    "/home/tsifeherana/.nuget/packages/microsoft.entityframeworkcore.analyzers/10.0.7/microsoft.entityframeworkcore.analyzers.10.0.7.nupkg.sha512",
-    "/home/tsifeherana/.nuget/packages/microsoft.entityframeworkcore.relational/10.0.4/microsoft.entityframeworkcore.relational.10.0.4.nupkg.sha512",
-    "/home/tsifeherana/.nuget/packages/npgsql/10.0.2/npgsql.10.0.2.nupkg.sha512",
-    "/home/tsifeherana/.nuget/packages/npgsql.entityframeworkcore.postgresql/10.0.1/npgsql.entityframeworkcore.postgresql.10.0.1.nupkg.sha512"
+    "/home/codespace/.nuget/packages/microsoft.entityframeworkcore/10.0.7/microsoft.entityframeworkcore.10.0.7.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.entityframeworkcore.abstractions/10.0.7/microsoft.entityframeworkcore.abstractions.10.0.7.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.entityframeworkcore.analyzers/10.0.7/microsoft.entityframeworkcore.analyzers.10.0.7.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.entityframeworkcore.relational/10.0.4/microsoft.entityframeworkcore.relational.10.0.4.nupkg.sha512",
+    "/home/codespace/.nuget/packages/npgsql/10.0.2/npgsql.10.0.2.nupkg.sha512",
+    "/home/codespace/.nuget/packages/npgsql.entityframeworkcore.postgresql/10.0.1/npgsql.entityframeworkcore.postgresql.10.0.1.nupkg.sha512"
   ],
   "logs": []
 }
