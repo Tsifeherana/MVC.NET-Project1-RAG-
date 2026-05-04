@@ -67,7 +67,7 @@ namespace Projet1.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Login([Bind("Mail", "Password")] Student student)
+        public async Task<IActionResult> Login(LoginViewModel student)
         {
             if (!ModelState.IsValid)
             {
