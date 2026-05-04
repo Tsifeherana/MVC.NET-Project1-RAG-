@@ -54,7 +54,7 @@ namespace Projet1.Controllers
             //hasher le mot de passe avant stockage 
             student.Password = _hasher.HashPassword(student, vm.Password);
 
-            _context.student.Add(Student);
+            _context.Student.Add(student);
             await _context.SaveChangesAsync();
 
             return RedirectToAction("Index","Home");
